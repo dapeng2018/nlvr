@@ -15,3 +15,9 @@ Following Microsoft COCO (http://cocodataset.org/#termsofuse), we have licensed 
 
 ### NLVR2 (dataset with real images, Suhr and Zhou et al. 2018)
 We have licensed the annotations of the NLVR2 images (sentences and binary labels) under CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/). We do not license the NLVR2 images as we do not hold the copyright to them. 
+
+
+# 下载数据集
+需要安装imagehash 和 progressbar两个包，
+然后执行：python util/download_images.py ./data/dev.json ./dataset ./util/hashes/dev_hashes.json
+其中dataset文件夹需要提前创建。
